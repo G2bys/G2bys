@@ -1,0 +1,25 @@
+body {
+    background:linear-gradient(to right, #444625, #7f8d55);
+    }
+
+#logo1-NUTRIDIARY {
+  display: block;
+  margin: 10px auto 0;   /* centraliza na horizontal */
+  width: 500px;
+  max-width: 90%;
+  animation: entrada  2s ease-out forwards;
+}
+
+@keyframes entrada {
+  from {
+    transform: translateY(-100vh) rotate(0deg);
+  }
+  to {
+    transform: translateY(0) rotate(300deg);
+  }
+}
+
+#titulo2-NUTRIDIARY {
+    color: black;
+    }
+    
